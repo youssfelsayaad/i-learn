@@ -1,0 +1,164 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Pacifico", cursive;
+}
+
+.d1{
+    display: flex;
+  justify-content: center;
+}
+.d1 a i{
+  color: #343a40;
+  padding: 10px 40px;
+  font-size: 30px;
+}
+.d1 a i:hover{
+color: rgb(192, 189, 189);
+}
+.nav {
+  justify-content: space-evenly;
+}
+
+.navbar-brand {
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+.navbar-collapse {
+  justify-content: end;
+}
+#hm{
+  border-bottom: #dc3545 solid 2px;
+}
+.nav-link {
+  font-size: 20px;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Pacifico", cursive;
+  justify-self: center;
+}
+.navbar-nav a:hover {
+  color: #dc3545;
+border-bottom: #dc3545 solid 2px;
+}
+
+.art {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.whyt {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.imgart {
+  width: 100%;
+  height: 100%;
+}
+
+.h21 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 90px;
+}
+.vb{
+
+  border: none;
+
+}
+.vb:hover{
+background-color: #dc3545;
+border: none;
+
+}
+
+footer {
+  background-color: #343a40;
+}
+.v1{
+  margin-bottom: 100px;
+}
+.v1 a {
+  margin-top: 15px;
+}
+footer h1 {
+  vertical-align: middle;
+}
+footer h2 {
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+
+}
+i {
+  font-size: 40px;
+  color: #dc3545;
+  justify-items: center;
+}
+
+i:hover {
+  color:#6c757d;
+}
+.linkat{
+  justify-content: space-evenly;
+  width: 25%;
+  padding: 50px 0px;
+}
+.copy{
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.copy a{
+  color:rgb(218, 213, 213) ;
+  font-size: 19px;
+}
+.copy a:hover{
+color: #dc3545;
+font-size: 20px;
+
+}
+
+
+
+/*register*/
+
+.main{
+	padding:20px;
+	font-family: 'Helvetica', serif;
+	box-shadow: 2px 2px 5px 2px #888888;
+	
+}
+.main h1{
+	font-size: 40px;
+	text-align:center;
+	font-family: 'Helvetica', serif;
+	
+}
+input{
+	font-family: 'Helvetica', serif;
+	width: 100%;
+	font-size: 20px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 2px solid #767474;
+}
+input[type=submit] {
+	font-family: 'Helvetica', serif;
+	width: 100%;
+	background-color: #343a40;
+	border: none;
+	color: #dc3545;
+	padding: 16px 32px;
+	margin: 4px 2px;
+	border-radius: 10px;
+}

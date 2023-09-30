@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I-Learn | register</title>
+    <link rel="stylesheet"
+    href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity=
+    "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../logo.png" />
+
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="d1 bg-danger">
+      <li >
+        <a 
+        target="_blank"
+        href="tel:+201111120269" class="text-secondary tel"
+          ><i class="fa-solid fa-phone "> </i
+        ></a>
+      </li>
+      <li >
+        <a 
+        target="_blank"
+        href="mailto:youssfelsayaad@gmail.com" class="text-secondary tel"
+          ><i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+      <li >
+        <a
+          target="_blank"
+          href="https://web.facebook.com/youssfelsayaad2/"
+          class="text-secondary tel"
+><i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+
+    </div>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a href="./index1.html" class="navbar-brand">
+          <h1 class="text-danger">
+            I<span class="text-secondary">-Learn</span>
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+            id="hm"
+              class="nav-link text-danger"
+              aria-current="page"
+              href="./index1.html"
+              >Home</a
+            >
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">news</a>
+            <a class="nav-link btn-close-white" href="./reg.html">register</a>
+            <a class="nav-link btn-close-white" href="./log in.html">login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+ 
+        <br>
+        <br>
+        <div class="container" >
+            <div class="row">
+            <div class="col-md-3">
+                        
+            </div>
+                    
+            <div class="col-md-6 main">
+                        
+                <form action="http://localhost:3000/sign_up" method="post">				
+                <h1> register </h1>
+                                
+                <input class="box" type="text" name="name" id="name"
+                placeholder="Name" required /><br>
+                                
+                <input class="box" type="email" name="email" id="email"
+                placeholder="E-Mail " required /><br>
+                                
+                <input class="box" type="password" name="password"
+                id="password" placeholder="Password " required/><br>
+                                
+                <input class="box" type="text" name="phone" id="phone"
+                placeholder="Phone Number " required/><br>
+                            <br>
+                <input type="submit" id="submitDetails"
+                name="submitDetails" value="Submit" /><br>
+                        
+                </form>
+                        
+            </div>
+                    
+                    
+            <div class="col-md-3">
+            </div>
+                    
+        </div>
+        </div>
+
+    
+
+   
+
+    </footer>
+    
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
